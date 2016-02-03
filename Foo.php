@@ -8,7 +8,7 @@ use Faker\ORM\Propel\EntityPopulator;
 
 class Foo {
 
-    public function Bar() {
+    public function bar() {
 
 
         $oGenerator = Factory::create();
@@ -28,3 +28,5 @@ class Foo {
     }
 
 }
+
+?>
